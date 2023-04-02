@@ -12,6 +12,7 @@ function App() {
       element: <Main></Main>,
       children:[
         {path: '/', element: <Home></Home> },
+        {path: '/home', element: <Home></Home> },
         {path: '/summary', element: <Summary></Summary> }
       ]
     }
